@@ -14,3 +14,7 @@ M5_t278.00_CoM.tsv contains the data from M5_out_278.00.dat transformed into the
 M5_t278.00_CoM_mks.tsv contains the same data as M5_t278.00_CoM.tsv, but with units converted to mks units.
 
 These data tranformations, production of these two files, and further data analysis and visualization is done in NSC_statistical_analysis.ipynb.
+
+To avoid package and dependenc issues, you can repoduce the conda environment used to run this python notebook using the provided .yml file and the following command:
+
+conda env create -f data_camp_env.yml
