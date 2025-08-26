@@ -1,0 +1,9 @@
+Evaluation of dataset using FAIR principles. 
+
+The FAIR data principles state that data should be Findable, Accessible, Interoperable, and Reusable. 
+
+This dataset was part of a published scientific paper, with a Data Availability Statement of “Simulation data and analysis codes are available upon request.” and contact information for the lead author provided. This made the data moderately findable and accessible, as the author was responsive and able to give the data when I requested it via email. However, this method relies on the author remaining available and responsive, maintaining access to their institutional email address, and maintaining the storage of the data. A more reliable method would be to host the data in a data repository with a unique and persistent identifier. 
+
+The data was provided as a .dat file, and column header information was provided in the email. The data did not itself come with any additional metadata, and the units of the data were not provided and had to be deduced by reading the paper and finding what units were used in their discussions of the data. The file name also included the time of the snapshot in N-body units, with a note that the conversion factor to Myr can found in the paper. While the necessary information could be found in the paper, reusability would be greatly enhanced by metadata to describe the origin of the data and brief description of the simulation, descriptions of the columns in the data and their units, and a comment on the coordinate system. 
+
+In my project, part of my analysis required that I shift the data into a different reference frame, and change to a different set of units for more convenient calculations. In an effort to increase the reusability, I also produced new data files, one that contains the data in the new reference frame, and another in the new reference frame in the new units. I include column headers which include units in both files. 

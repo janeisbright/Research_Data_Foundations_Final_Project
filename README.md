@@ -4,6 +4,7 @@ This is the final project for my participation in CU Boulder's Research Data Fou
 Information from the Data Camp can be found at: https://cu-boulder-crdds.github.io/Research-Data-Foundations-Camp-2025-August/
 
 Data Files:
+
 M5_out_278.00.dat contains the data from the M5 simulation in Mastrobuono-Battisti et. al (2023), procured by request from the authors.
 The columns are: x y z vx vy vz mass. Each line represents a "star" (or black hole) in the system.
 the units of positions are in parsecs, velocites are in km/s, and masses are in solar masses.
